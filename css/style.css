@@ -1,0 +1,23 @@
+/* CSS代码顺序会从上往下覆盖 */
+#profile{
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 62vh;
+    /* vertical-align: middle; */
+}
+#link{
+    display: flex;
+    height: 5%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 200px;
+    gap: 30px;
+}
+#link img{
+    width: 80px;
+    height: auto;
+}
