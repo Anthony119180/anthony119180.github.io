@@ -13,7 +13,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    height: 70vh;
+    height: 60vh;
     /* vertical-align: middle; */
 }
 #profile-img{
@@ -34,19 +34,19 @@
     gap: 30px;
 }
 #link #linkedin {
-    scale: 80%;
+    scale: 60%;
     position: relative;
     left: -10px;
 }
 #link #youtube {
-    scale:160%;
+    scale:120%;
     position: relative;
     top: 4px;
 }
 #link #bilibili {
-    scale:220%;
+    scale:160%;
     position: relative;
-    top: 18px;
+    top: 24px;
     left: 33px;
 }
 .profile-label {
@@ -54,13 +54,13 @@
 }
 #name {
     font-family: "方正粗黑宋简体";
-    font-size: 80px;
+    font-size: 500%;
     text-shadow: 4px 4px 6px black;
 }
 #title-text {
     font-family: "华文中宋";
-    font-size: 30px;
-    text-shadow: 2px 2px 4px black;
+    font-size: 150%;
+    text-shadow: 3px 3px 3px black;
 }
 #link img{
     width: 80px;
