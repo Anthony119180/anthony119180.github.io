@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Anthony | NOT JUST A PROGRAMMER</title>
+    <link rel="icon" href="img/titleicon.png">
     <style>
         body {
             background: url(img/malenia.jpg) no-repeat;
             background-size: cover;
             background-attachment: fixed;
-            background-position: 50% 20%;
+            background-position: center;
+            background-repeat: no-repeat;
         }
     </style>
 </head>
@@ -19,22 +21,34 @@
 <body>
     <!-- 头像 -->
     <div id="profile">
-        <img src="img/profile.png">
-        <img src="img/ANTHONY CHEN.png">
+        <img id = "profile-img" src="img/profile.png" class="profile-margin">
+        <p id = "name" class="profile-label profile-margin"  onmouseover="over(this)" onmouseleave="up(this)">ANTHONY CHEN</p>
+        <p id = "title-text" class="profile-label profile-margin">HONESE, CURIOUS, AND FEARLESS</p>
     </div>
     <!-- icon -->
     <div id="link">
-        <a href="http://www.linkedin.com/in/anthony119180">
+        <a id = "linkedin" href="http://www.linkedin.com/in/anthony119180">
             <img src="img/linkedin.png">
         </a>
-        <a href="https://b23.tv/mg4rr1q">
-            <img src="img/bilibili.png" >
+        <a id = "youtube" href="http://www.youtube.com/channel/UCMVudvquzaaNcUxsNQsI8uQ">
+            <img src="img/youtube.png">
         </a>
-        <a href="http://www.youtube.com/channel/UCMVudvquzaaNcUxsNQsI8uQ">
-            <img src="img/youtube.png" >
+        <a id = "bilibili" href="https://b23.tv/mg4rr1q">
+            <img src="img/bilibili.png">
         </a>
-
+    </div>
+    <div id = "test">
+        
     </div>
 </body>
+
+<script type="text/javascript">
+    function over(x){
+        x.style.background = blue;
+    }
+    function up(x){
+        x.style.background = red;
+    }
+</script>
 
 </html>
