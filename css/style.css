@@ -1,5 +1,12 @@
 /* CSS代码顺序会从上往下覆盖 */
-
+@font-face {
+    font-family: "方正粗黑宋简体";
+    src: url("font/方正粗黑宋简体.ttf");
+}
+@font-face {
+    font-family: "华文中宋";
+    src: url("font/STZHONGS.ttf");
+}
 #profile{
     /* background-color: aliceblue; */
     display: flex;
