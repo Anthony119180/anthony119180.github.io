@@ -29,7 +29,8 @@
 #main-title_language {
     text-decoration: none;
     font-family: "微软雅黑";
-    margin-left: 160px;
+    left: 300px;
+    position: absolute;
 }
 
 #linkedin {
