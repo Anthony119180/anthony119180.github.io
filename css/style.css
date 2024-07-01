@@ -1,12 +1,4 @@
-/* CSS代码顺序会从上往下覆盖 */
-@font-face {
-    font-family: "方正粗黑宋简体";
-    src: url("font/方正粗黑宋简体.ttf");
-}
-@font-face {
-    font-family: "华文中宋";
-    src: url("font/STZHONGS.ttf");
-}
+
 #profile{
     /* background-color: aliceblue; */
     display: flex;
@@ -24,45 +16,67 @@
     margin-bottom: 0;
     margin-top: 0;
 }
+
+#more-btn {
+    display:inline-block;
+    border: 3px solid #c8c8c8;
+    border-radius: 40px;
+    color:white;
+    box-shadow: 3px 3px 5px black;
+
+    background-color: transparent;
+    position: relative;
+    margin-left: 50%;
+    translate: -50%;
+    padding: 20px 40px;
+    margin-top: 140px;
+
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "华文中宋";
+    text-shadow: 2px 2px 2px black;;
+}
+
 #link{
     display: flex;
     height: 5%;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 200px;
-    gap: 30px;
-}
-#link #linkedin {
-    scale: 60%;
-    position: relative;
-    left: -10px;
-}
-#link #youtube {
-    scale:120%;
-    position: relative;
-    top: 4px;
-}
-#link #bilibili {
-    scale:160%;
-    position: relative;
-    top: 24px;
-    left: 33px;
-}
-.profile-label {
-    color: #f4f4f4;
-}
-#name {
-    font-family: "方正粗黑宋简体";
-    font-size: 500%;
-    text-shadow: 4px 4px 6px black;
-}
-#title-text {
-    font-family: "华文中宋";
-    font-size: 150%;
-    text-shadow: 3px 3px 3px black;
+    margin-top: 20px;
+    gap: 8px;
 }
 #link img{
     width: 80px;
     height: auto;
+}
+#link #linkedin {
+    scale: 40%;
+    position: relative;
+    left: 0px;
+}
+#link #youtube {
+    scale:95%;
+    position: relative;
+    top: 4px;
+}
+#link #bilibili {
+    scale:118%;
+    position: relative;
+    top: 24px;
+    left: 0px;
+}
+.profile-label {
+    color: white;
+}
+#name {
+    font-family: "方正粗黑宋简体";
+    font-size: 400%;
+    text-shadow: 4px 4px 6px black;
+}
+#title-text {
+    font-family: "华文中宋";
+    font-size: 130%;
+    text-shadow: 3px 3px 3px black;
 }
