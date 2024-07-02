@@ -1,4 +1,11 @@
 
+.delay1 {
+    animation-delay: 0.5s;
+}
+.delay2 {
+    animation-delay: 1s;
+}
+
 #profile{
     /* background-color: aliceblue; */
     display: flex;
