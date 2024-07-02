@@ -1,16 +1,16 @@
 #main-title {
     width: 100vw;
     height: 60px;
-    position: fixed;
+    position: sticky;
     top: 0%;
-    margin-top: 0;
+    z-index: 99;
 
     display: flex;
     flex-direction: row;
     align-items: center;
 
-    background-color: rgba(0, 0, 0, 0.6);
-    box-shadow: 2px 2px 6px black;
+    background-color: rgb(246, 245, 239);
+    box-shadow: 2px 2px 5px black;
 
 }
 #main-top {
@@ -18,18 +18,20 @@
     height: 100vh;
     margin-bottom: 20px;
 }
+/* #main-morebtn {
+    scale: 28%;
+} */
 #main-title-name {
     text-decoration: none;
-    color: white;
     font-family: "方正粗黑宋简体";
     margin-left: 36px;
     font-size: 24px;
-    text-shadow:2px 2px 6px black; ;
+    /* text-shadow:2px 2px 6px black; */
 }
 #main-title_language {
     text-decoration: none;
-    font-family: "微软雅黑";
-    left: 300px;
+    font-family: "方正粗黑宋简体";
+    left: 320px;
     position: absolute;
 }
 
@@ -48,3 +50,81 @@
     position: absolute;
     right: 0px;
 } */
+
+.container {
+    position: relative;
+    margin-left: 20vw;
+
+    width: 64vw;   
+    border-radius: 8px;
+
+    display: flex;
+    gap: 10px;
+}
+#main-middle {
+    position: relative;
+    width: 72%;
+    height: 2000px;
+    top: 10px;
+    background-color :rgba(245, 245, 245, 0.9);
+    border-radius: 5px;
+}
+
+#main-right {
+    position: sticky;
+    top: 8%;
+    width: 300px;
+    height: 450px;
+    background-color: rgba(245, 245, 245, 0.9);
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#main-profile {
+    width: 140px;
+    height: auto;
+    margin-top: 10px;
+}
+#main-name {
+    font-family: "方正粗黑宋简体";
+    font-size: 26px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.main-right-text {
+    font-family: "微软雅黑";
+    font-size: 16px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    color:rgb(82, 82, 82);
+}
+#main-smallicon{
+    display: flex;
+    height: 40px;
+    width: 400px;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#samll-linkedin{
+    width: 26px;
+    height: auto;
+}
+#small-youtube {
+    width: 58px;
+    height: auto;
+    margin-left: 20px;
+    /* position: relative; */
+}
+#small-bilibili {
+    width: 100px;
+    height: auto;
+    margin-left: 6px;
+    /* position: relative; */
+}
