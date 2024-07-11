@@ -1,0 +1,31 @@
+.headtitle-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60vh;
+}
+.headtitle-img{
+    width: 230px;
+    height: auto;
+
+    object-fit: contain;
+}
+.profile-label {
+    color: white;
+}
+#name {
+    font-family: "方正粗黑宋简体";
+    font-size: 360%;
+    text-shadow: 4px 4px 6px black;
+}
+#title-text {
+    font-family: "华文中宋";
+    font-size: 110%;
+    text-shadow: 3px 3px 3px black;
+}
+.profile-margin{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+

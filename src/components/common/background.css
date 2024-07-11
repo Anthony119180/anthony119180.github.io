@@ -1,0 +1,8 @@
+body{
+    margin: 0px;
+    background-image: url(../../assets/img/malenia.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

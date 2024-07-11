@@ -1,0 +1,56 @@
+.panel-bg {
+    position: sticky;
+    top: 70px;
+    width: 280px;
+    height: 410px;
+    margin-left: 220px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile-img {
+    width: 120px;
+    height: auto;
+    margin-top: 20px;
+}
+.info-name {
+    font-family: "方正粗黑宋简体";
+    font-size: 25px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.desc-text {
+    font-family: "微软雅黑";
+    font-size: 14px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.icon-area {
+    display: flex;
+    height: 40px;
+    width: 400px;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    margin-top: 20px;
+    margin-left: 20px;  
+}
+
+#linkedin {
+    width: 24px;
+    height: auto;
+}
+#youtube {
+    width: 54px;
+    height: auto;
+    margin-left: 20px;
+}
+#bilibili {
+    width: 90px;
+    height: auto;
+    margin-left: 6px;
+}
