@@ -9,6 +9,7 @@ const main = () => {
         <div class="page">
             <Header></Header>
             <Headtitle></Headtitle>
+            <Headtitle></Headtitle>
             <Morebtn></Morebtn>
         </div>
     )
