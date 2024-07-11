@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/main/static/css/main.ddfb7107.css",
+    "main.js": "/main/static/js/main.e323adbf.js",
+    "static/media/STZHONGS.ttf": "/main/static/media/STZHONGS.04380c7b103c46fec3bd.ttf",
+    "static/media/方正粗黑宋简体.ttf": "/main/static/media/方正粗黑宋简体.fc451f6bd7c2a1eed7a3.ttf",
+    "static/media/malenia.jpg": "/main/static/media/malenia.48cc64b1e8d6623ec1df.jpg",
+    "static/media/profile.png": "/main/static/media/profile.0dba964d8765540bd9f6.png",
+    "static/media/profile_2.png": "/main/static/media/profile_2.2c9f203d486e05d50701.png",
+    "static/media/bembo.otf": "/main/static/media/bembo.e5f28fa645152dfb639b.otf",
+    "static/media/bilibili_2.png": "/main/static/media/bilibili_2.197618107263ef9ab955.png",
+    "static/media/youtube.png": "/main/static/media/youtube.5312a77f009bbbb58ec2.png",
+    "static/media/linkedin.png": "/main/static/media/linkedin.307e13c8dbbdafcf2f96.png",
+    "index.html": "/main/index.html",
+    "main.ddfb7107.css.map": "/main/static/css/main.ddfb7107.css.map",
+    "main.e323adbf.js.map": "/main/static/js/main.e323adbf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ddfb7107.css",
+    "static/js/main.e323adbf.js"
+  ]
+}
