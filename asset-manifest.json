@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/main/static/css/main.ddfb7107.css",
-    "main.js": "/main/static/js/main.81980acc.js",
-    "static/media/STZHONGS.ttf": "/main/static/media/STZHONGS.04380c7b103c46fec3bd.ttf",
-    "static/media/方正粗黑宋简体.ttf": "/main/static/media/方正粗黑宋简体.fc451f6bd7c2a1eed7a3.ttf",
-    "static/media/malenia.jpg": "/main/static/media/malenia.48cc64b1e8d6623ec1df.jpg",
-    "static/media/profile.png": "/main/static/media/profile.0dba964d8765540bd9f6.png",
-    "static/media/profile_2.png": "/main/static/media/profile_2.2c9f203d486e05d50701.png",
-    "static/media/bembo.otf": "/main/static/media/bembo.e5f28fa645152dfb639b.otf",
-    "static/media/bilibili_2.png": "/main/static/media/bilibili_2.197618107263ef9ab955.png",
-    "static/media/youtube.png": "/main/static/media/youtube.5312a77f009bbbb58ec2.png",
-    "static/media/linkedin.png": "/main/static/media/linkedin.307e13c8dbbdafcf2f96.png",
-    "index.html": "/main/index.html",
-    "main.ddfb7107.css.map": "/main/static/css/main.ddfb7107.css.map",
-    "main.81980acc.js.map": "/main/static/js/main.81980acc.js.map"
+    "main.css": "/gh-pages/static/css/main.15829e55.css",
+    "main.js": "/gh-pages/static/js/main.05275d64.js",
+    "static/media/STZHONGS.ttf": "/gh-pages/static/media/STZHONGS.04380c7b103c46fec3bd.ttf",
+    "static/media/方正粗黑宋简体.ttf": "/gh-pages/static/media/方正粗黑宋简体.fc451f6bd7c2a1eed7a3.ttf",
+    "static/media/malenia.jpg": "/gh-pages/static/media/malenia.48cc64b1e8d6623ec1df.jpg",
+    "static/media/profile.png": "/gh-pages/static/media/profile.0dba964d8765540bd9f6.png",
+    "static/media/profile_2.png": "/gh-pages/static/media/profile_2.2c9f203d486e05d50701.png",
+    "static/media/bembo.otf": "/gh-pages/static/media/bembo.e5f28fa645152dfb639b.otf",
+    "static/media/bilibili_2.png": "/gh-pages/static/media/bilibili_2.197618107263ef9ab955.png",
+    "static/media/youtube.png": "/gh-pages/static/media/youtube.5312a77f009bbbb58ec2.png",
+    "static/media/linkedin.png": "/gh-pages/static/media/linkedin.307e13c8dbbdafcf2f96.png",
+    "index.html": "/gh-pages/index.html",
+    "main.15829e55.css.map": "/gh-pages/static/css/main.15829e55.css.map",
+    "main.05275d64.js.map": "/gh-pages/static/js/main.05275d64.js.map"
   },
   "entrypoints": [
-    "static/css/main.ddfb7107.css",
-    "static/js/main.81980acc.js"
+    "static/css/main.15829e55.css",
+    "static/js/main.05275d64.js"
   ]
 }
