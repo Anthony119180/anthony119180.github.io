@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/gh-pages/static/css/main.15829e55.css",
-    "main.js": "/gh-pages/static/js/main.05275d64.js",
-    "static/media/STZHONGS.ttf": "/gh-pages/static/media/STZHONGS.04380c7b103c46fec3bd.ttf",
-    "static/media/方正粗黑宋简体.ttf": "/gh-pages/static/media/方正粗黑宋简体.fc451f6bd7c2a1eed7a3.ttf",
-    "static/media/malenia.jpg": "/gh-pages/static/media/malenia.48cc64b1e8d6623ec1df.jpg",
-    "static/media/profile.png": "/gh-pages/static/media/profile.0dba964d8765540bd9f6.png",
-    "static/media/profile_2.png": "/gh-pages/static/media/profile_2.2c9f203d486e05d50701.png",
-    "static/media/bembo.otf": "/gh-pages/static/media/bembo.e5f28fa645152dfb639b.otf",
-    "static/media/bilibili_2.png": "/gh-pages/static/media/bilibili_2.197618107263ef9ab955.png",
-    "static/media/youtube.png": "/gh-pages/static/media/youtube.5312a77f009bbbb58ec2.png",
-    "static/media/linkedin.png": "/gh-pages/static/media/linkedin.307e13c8dbbdafcf2f96.png",
-    "index.html": "/gh-pages/index.html",
-    "main.15829e55.css.map": "/gh-pages/static/css/main.15829e55.css.map",
-    "main.05275d64.js.map": "/gh-pages/static/js/main.05275d64.js.map"
+    "main.css": "/anthony119180.github.io/static/css/main.293e451a.css",
+    "main.js": "/anthony119180.github.io/static/js/main.064f3922.js",
+    "static/media/STZHONGS.ttf": "/anthony119180.github.io/static/media/STZHONGS.04380c7b103c46fec3bd.ttf",
+    "static/media/方正粗黑宋简体.ttf": "/anthony119180.github.io/static/media/方正粗黑宋简体.fc451f6bd7c2a1eed7a3.ttf",
+    "static/media/malenia.jpg": "/anthony119180.github.io/static/media/malenia.48cc64b1e8d6623ec1df.jpg",
+    "static/media/profile.png": "/anthony119180.github.io/static/media/profile.0dba964d8765540bd9f6.png",
+    "static/media/profile_2.png": "/anthony119180.github.io/static/media/profile_2.2c9f203d486e05d50701.png",
+    "static/media/bembo.otf": "/anthony119180.github.io/static/media/bembo.e5f28fa645152dfb639b.otf",
+    "static/media/bilibili_2.png": "/anthony119180.github.io/static/media/bilibili_2.197618107263ef9ab955.png",
+    "static/media/youtube.png": "/anthony119180.github.io/static/media/youtube.5312a77f009bbbb58ec2.png",
+    "static/media/linkedin.png": "/anthony119180.github.io/static/media/linkedin.307e13c8dbbdafcf2f96.png",
+    "index.html": "/anthony119180.github.io/index.html",
+    "main.293e451a.css.map": "/anthony119180.github.io/static/css/main.293e451a.css.map",
+    "main.064f3922.js.map": "/anthony119180.github.io/static/js/main.064f3922.js.map"
   },
   "entrypoints": [
-    "static/css/main.15829e55.css",
-    "static/js/main.05275d64.js"
+    "static/css/main.293e451a.css",
+    "static/js/main.064f3922.js"
   ]
 }
