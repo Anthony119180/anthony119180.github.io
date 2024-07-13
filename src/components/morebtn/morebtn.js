@@ -8,7 +8,8 @@ import { useTranslation } from "react-i18next";
 const Morebtn = () => {
     const {t} = useTranslation();
     const func = () => {
-        window.scrollTo({ top: window.innerHeight, behavior: 'smooth' });
+        var y = window.innerHeight - 70;
+        window.scrollTo({ top: y, behavior: 'smooth' });
     };
     return (
         <div>

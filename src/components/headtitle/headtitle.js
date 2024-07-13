@@ -7,7 +7,8 @@ import { useTranslation } from "react-i18next";
 
 const Headtitle = () => {
     const func = () => {
-        window.scrollTo({ top: window.innerHeight, behavior: 'smooth' });
+        var y = window.innerHeight - 70;
+        window.scrollTo({ top: y, behavior: 'smooth' });
     };
     const {t} = useTranslation();
     return (
