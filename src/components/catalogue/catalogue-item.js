@@ -6,7 +6,7 @@ import pic from "../../assets/img/itempic_0001.png"
 const CatalogueItem = ()=>{
     return (
         <div class = "item-bg translucent-bg">
-            <a href="https:www.google.com" class = "item-link">
+            <a href="https://www.linkedin.com/in/anthony119180/" class = "item-link">
                 <img src = {pic} class = "item-img"></img>
                 <p class = "item-title text_black i18n_text">TITLE:XXXXX</p>
             </a>
