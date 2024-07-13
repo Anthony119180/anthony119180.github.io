@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.57393479.css",
-    "main.js": "/personal-website/static/js/main.6b58a51e.js",
+    "main.css": "/personal-website/static/css/main.d20e8227.css",
+    "main.js": "/personal-website/static/js/main.7d1db688.js",
     "static/media/STZHONGS.ttf": "/personal-website/static/media/STZHONGS.04380c7b103c46fec3bd.ttf",
     "static/media/方正粗黑宋简体.ttf": "/personal-website/static/media/方正粗黑宋简体.fc451f6bd7c2a1eed7a3.ttf",
     "static/media/malenia.jpg": "/personal-website/static/media/malenia.48cc64b1e8d6623ec1df.jpg",
+    "static/media/itempic_0001.png": "/personal-website/static/media/itempic_0001.bfcb1dc97764ed5635e6.png",
     "static/media/profile.png": "/personal-website/static/media/profile.0dba964d8765540bd9f6.png",
     "static/media/profile_2.png": "/personal-website/static/media/profile_2.2c9f203d486e05d50701.png",
     "static/media/bembo.otf": "/personal-website/static/media/bembo.e5f28fa645152dfb639b.otf",
@@ -12,11 +13,11 @@
     "static/media/youtube.png": "/personal-website/static/media/youtube.5312a77f009bbbb58ec2.png",
     "static/media/linkedin.png": "/personal-website/static/media/linkedin.307e13c8dbbdafcf2f96.png",
     "index.html": "/personal-website/index.html",
-    "main.57393479.css.map": "/personal-website/static/css/main.57393479.css.map",
-    "main.6b58a51e.js.map": "/personal-website/static/js/main.6b58a51e.js.map"
+    "main.d20e8227.css.map": "/personal-website/static/css/main.d20e8227.css.map",
+    "main.7d1db688.js.map": "/personal-website/static/js/main.7d1db688.js.map"
   },
   "entrypoints": [
-    "static/css/main.57393479.css",
-    "static/js/main.6b58a51e.js"
+    "static/css/main.d20e8227.css",
+    "static/js/main.7d1db688.js"
   ]
 }
