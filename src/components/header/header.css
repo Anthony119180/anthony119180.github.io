@@ -25,17 +25,16 @@
 .header-name {
     text-decoration: none;
     font-family: "方正粗黑宋简体";
-    margin-left: 36px;
+    margin-left: 40px;
     font-size: 24px;
-    /* text-shadow:2px 2px 6px black; */
 }
 .header-language-btn {
-    left: 320px;
+    left: 350px;
     position: absolute;
 }
 .header-language {
     text-decoration: none;
     font-family: "方正粗黑宋简体";
-    font-size: 16px;
+    font-size: 18px;
 }
 

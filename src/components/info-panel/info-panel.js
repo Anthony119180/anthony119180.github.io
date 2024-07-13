@@ -16,13 +16,13 @@ const InfoPanel = ()=>{
             <p class = "text_black info-name i18n_text">{t('name')}</p>
             <p class = "text_grey desc-text i18n_text">{t("info_desc")}</p>
             <div class ="icon-area">
-                <a href="http://www.linkedin.com/in/anthony119180">
+                <a href="http://www.linkedin.com/in/anthony119180" target="_blank">
                     <img src= {linkedin} id="linkedin"></img>
                 </a>
-                <a href="http://www.youtube.com/channel/UCMVudvquzaaNcUxsNQsI8uQ">
+                <a href="http://www.youtube.com/channel/UCMVudvquzaaNcUxsNQsI8uQ" target="_blank">
                     <img src= {youtube} id="youtube"></img>
                 </a>
-                <a href="https://b23.tv/mg4rr1q">
+                <a href="https://b23.tv/mg4rr1q" target="_blank">
                     <img src= {bilibili} id="bilibili"></img>
                 </a>
             </div>

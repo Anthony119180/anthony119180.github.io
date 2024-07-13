@@ -28,6 +28,7 @@
     transform: scale(1.15);
 }
 
+
 .item-link {
     text-decoration: none;
 }
@@ -37,8 +38,15 @@
     font-size: 28px;
 
     position: relative;
+    width: 300px;
     left: 40px;
     top: 36px;
+
+    transition: color 0.3s ease , left 0.3s ease;
+}
+.item-bg:hover .item-title{
+    color:rgb(174, 31, 13);
+    left:50px
 }
 .item-midtext {
     margin: 0;
