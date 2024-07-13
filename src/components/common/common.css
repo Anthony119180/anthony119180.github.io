@@ -28,6 +28,9 @@ body {
 .text_grey {
     color:rgb(82, 82, 82);
 } 
+.i18n_text {
+    white-space:pre-line
+}
 .transparent-btn {
     padding: 0;
     background-color: transparent;

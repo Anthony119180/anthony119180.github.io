@@ -1,18 +1,21 @@
 import React, { useEffect, useState } from "react";
 import "./header.css";
 import "../common/common.css"
+import { useTranslation } from "react-i18next";
 
 const Header = () => {
+
     // 名字主页点击
     const name_click = () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     };
 
     // 语言版本
-    const [isEng, setEng] = useState(true);
-    const language_click = () => {
-        setEng(!isEng);
-    };
+    const {t,i18n} = useTranslation();
+    const changeLanguage = ()=>{
+        var set = i18n.language === "eng"? "cn" : "eng";
+        i18n.changeLanguage(set);
+    }
 
     // 渐隐渐显
     const [showHeader,setShowHeader] = useState(false);
@@ -28,13 +31,13 @@ const Header = () => {
     return (
         <div class= {`header-effect ${showHeader? 'visible' : "hidden"} header-bg`}>
             <button class="transparent-btn" onClick={name_click}>
-                <p class="header-name text_black">ANTHONY</p>
+                <p class="header-name text_black">{t("homepage_str")}</p>
             </button>
-            <button class="transparent-btn header-language-btn" onClick={language_click}>
+            <button class="transparent-btn header-language-btn" onClick={changeLanguage}>
                 <p class="header-language">
-                    <span style = {{color:isEng?"#333333":"#bbbbbb"}}>EN</span>
+                    <span style = {{color:i18n.language === "eng"?"#333333":"#bbbbbb"}}>{t("en")}</span>
                     <span> | </span>
-                    <span style={{color:isEng?"#bbbbbb":"#333333"}}>CN</span>
+                    <span style={{color:i18n.language === "eng"?"#bbbbbb":"#333333"}}>{t("cn")}</span>
                 </p>
             </button>
         </div>
