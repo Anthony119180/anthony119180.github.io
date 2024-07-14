@@ -1,17 +1,17 @@
 .catalogue-main-bg {
     position: relative;
-    width: 700px;
+    width: 800px;
     height: 1400px;
     margin-bottom: 20px;
-    margin-top: -410px;
-    margin-left: 540px;
+    margin-top: -450px;
+    margin-left: 660px;
     background-color: none;
 }
 
 .item-bg {
     position: relative;
     width: 100%;
-    height: 250px;
+    height: 300px;
     margin-bottom: 10px;
 
     overflow: hidden;
@@ -35,12 +35,12 @@
 .item-title {
     margin: 0;
     font-family: "方正粗黑宋简体";
-    font-size: 28px;
+    font-size: 32px;
 
     position: relative;
     width: 300px;
     left: 40px;
-    top: 36px;
+    top: 40px;
 
     transition: color 0.3s ease , left 0.3s ease;
 }
@@ -50,19 +50,19 @@
 }
 .item-midtext {
     margin: 0;
-    width: 360px;
+    width: 400px;
     height: 120px;
     font-family: "华文中宋";
-    font-size: 16px;
+    font-size: 20px;
     position: relative;
     left: 40px;
-    top: 46px;
+    top: 54px;
 }
 .item-keyword {
     margin: 0;
     font-family: "华文中宋";
-    font-size: 14px;
+    font-size: 16px;
     position: relative;
     left: 40px;
-    top: 56px;
+    top: 88px;
 }
