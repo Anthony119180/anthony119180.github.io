@@ -6,7 +6,7 @@
     height: 60vh;
 }
 .headtitle-img{
-    width: 230px;
+    width: 260px;
     height: auto;
 
     object-fit: contain;
@@ -16,12 +16,12 @@
 }
 #name {
     font-family: "方正粗黑宋简体";
-    font-size: 360%;
+    font-size: 430%;
     text-shadow: 4px 4px 6px black;
 }
 #title-text {
     font-family: "华文中宋";
-    font-size: 110%;
+    font-size: 140%;
     text-shadow: 3px 3px 3px black;
 }
 .profile-margin{

@@ -11,19 +11,19 @@
     align-items: center;
 }
 .profile-img {
-    width: 120px;
+    width: 140px;
     height: auto;
     margin-top: 20px;
 }
 .info-name {
     font-family: "方正粗黑宋简体";
-    font-size: 25px;
+    font-size: 28px;
     margin-top: 12px;
     margin-bottom: 12px;
 }
 .desc-text {
     font-family: "微软雅黑";
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
     padding-left: 30px;
     padding-right: 30px;
