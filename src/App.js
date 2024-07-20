@@ -8,7 +8,8 @@ function App() {
     <Router>
       <Routes>
         <Route path = "/page/:id" element = {<PageTemplatePage/>}></Route>
-        <Route path = "/" exact Component={Main}></Route>
+        <Route path = "/" element = {<Navigate to ="/personal-website"/>}></Route>
+        <Route path = "/personal-website" exact Component={Main}></Route>
       </Routes>
     </Router>
   );
