@@ -1,21 +1,23 @@
 import React from "react";
 import "./catalogue.css"
 import "../common/common.css"
-import pic from "../../assets/img/itempic_0001.png"
+import Articles from "../../assets/article/articles"
 
-const CatalogueItem = ()=>{
+const CatalogueItem = ({ id }) => {
+    const val = Articles.find(item=> item.id === parseInt(id));
+    const {article} = val;
+    if (!article) {
+        return <div class="item-bg translucent-bg">
+            <div>Article Not Found</div>
+        </div>
+    }
+
     return (
-        <div class = "item-bg translucent-bg">
-            <a href="https://www.linkedin.com/in/anthony119180/" class = "item-link">
-                <img src = {pic} class = "item-img"></img>
-                <p class = "item-title text_black i18n_text">TITLE:XXXXX</p>
-            </a>
-            <p class = "item-midtext text_grey i18n_text">
-                This is a test of English text to check if the styles are visually appealing
-                <br/>This is a test of English text to check if the styles are visually appealing.
-                This is a test of English text 
-            </p>
-            <p class = "item-keyword text_grey i18n_text">Keyword:Unity Lua C# PS</p>
+        <div class="item-bg translucent-bg">
+            <img src={article.pic} class="item-img"></img>
+            <p class="item-title text_black i18n_text">{article.title}</p>
+            <p class="item-midtext text_grey i18n_text">{article.desc}</p>
+            <p class="item-keyword text_grey i18n_text">{article.keyword}</p>
         </div>
     );
 }
